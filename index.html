@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Пилигрим — SMM-портфолио</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== НАВИГАЦИЯ ===== -->
+<nav class="navbar" id="navbar">
+  <div class="container nav-inner">
+    <a href="#hero" class="logo">
+      <span class="logo-mark">◊</span> Пилигрим<span class="logo-dot">.</span>SMM
+    </a>
+    <ul class="nav-links">
+      <li><a href="#strategy">Стратегия</a></li>
+      <li><a href="#content">Контент</a></li>
+      <li><a href="#cases">Примеры работ</a></li>
+      <li><a href="#kpi">Цели</a></li>
+    </ul>
+    <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero" id="hero">
+  <div class="hero-bg">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+  <div class="container hero-inner">
+    <div class="hero-badge">Стратегия развития соцсетей · 2026</div>
+    <h1 class="hero-title">
+      Сделаю социальные сети<br>
+      <span class="grad-text">Пилигрима</span> такими же<br>
+      чистыми, как сама вода
+    </h1>
+    <p class="hero-sub">
+      Это презентация моей стратегии для бренда бутилированной воды
+      <strong>«Пилигрим»</strong>: как я планирую выстроить узнаваемость,
+      вовлечённость и рост во всех ключевых соцсетях.
+    </p>
+    <div class="hero-actions">
+      <a href="#strategy" class="btn btn-primary">Смотреть стратегию →</a>
+      <a href="#cases" class="btn btn-ghost">Примеры работ</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">5+</span><span class="stat-label">платформ</span></div>
+      <div class="stat"><span class="stat-num">3–4</span><span class="stat-label">поста в неделю</span></div>
+      <div class="stat"><span class="stat-num">12</span><span class="stat-label">контент-рубрик</span></div>
+    </div>
+  </div>
+  <div class="wave"><svg viewBox="0 0 1440 120" preserveAspectRatio="none"><path d="M0,64 C240,120 480,8 720,40 C960,72 1200,128 1440,64 L1440,120 L0,120 Z"></path></svg></div>
+</header>
+
+<!-- ===== СТРАТЕГИЯ ===== -->
+<section class="section section-alt" id="strategy">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">01 — Стратегия</span>
+      <h2 class="section-title">Стратегия для «Пилигрим»</h2>
+      <p class="section-desc">Как я вижу развитие соцсетей бренда за первые 6 месяцев.</p>
+    </div>
+
+    <!-- Платформы -->
+    <h3 class="block-title">Платформы</h3>
+    <div class="platforms">
+      <div class="platform card">
+        <div class="platform-icon" style="background:linear-gradient(135deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888)">Ig</div>
+        <h4>Instagram</h4>
+        <p>Витрина бренда. Эстетика, Reels, сторис каждый день. Главный визуальный драйвер.</p>
+        <span class="tag">Визуал · Reels</span>
+      </div>
+      <div class="platform card">
+        <div class="platform-icon" style="background:linear-gradient(135deg,#0088cc,#229ED9)">Tg</div>
+        <h4>Telegram</h4>
+        <p>Комьюнити и полезный контент. Глубокие посты, опросы, закрытые спецпроекты.</p>
+        <span class="tag">Комьюнити · Лояльность</span>
+      </div>
+      <div class="platform card">
+        <div class="platform-icon" style="background:linear-gradient(135deg,#0077FF,#419ef0)">Vk</div>
+        <h4>VK</h4>
+        <p>Массовая аудитория. Конкурсы, клипы, длинные посты с SEO-потенциалом.</p>
+        <span class="tag">Охват · Конкурсы</span>
+      </div>
+      <div class="platform card">
+        <div class="platform-icon" style="background:linear-gradient(135deg,#000000,#25F4EE,#FE2C55)">Yt</div>
+        <h4>YouTube Shorts</h4>
+        <p>Вертикальные ролики и viral-формат. Дополнительный источник бесплатного охвата.</p>
+        <span class="tag">Видео · Охват</span>
+      </div>
+      <div class="platform card">
+        <div class="platform-icon" style="background:linear-gradient(135deg,#25F4EE,#000,#FE2C55)">Tk</div>
+        <h4>TikTok</h4>
+        <p>Тренды и челленджи. Эксперименты с молодёжной аудиторией и UGC.</p>
+        <span class="tag">Тренды · UGC</span>
+      </div>
+    </div>
+
+    <!-- Целевая аудитория -->
+    <h3 class="block-title">Целевая аудитория</h3>
+    <div class="audience">
+      <div class="persona card">
+        <div class="persona-emoji">🏃</div>
+        <h4>Спортсмены и ЗОЖ</h4>
+        <p>18–35 лет. Вода как часть тренировки и восстановления. Им важен баланс минералов.</p>
+      </div>
+      <div class="persona card">
+        <div class="persona-emoji">👩‍💼</div>
+        <h4>Офисные работники</h4>
+        <p>25–45 лет. Удобство, доставка в офис, привычка пить чистую воду каждый день.</p>
+      </div>
+      <div class="persona card">
+        <div class="persona-emoji">👨‍👩‍👧</div>
+        <h4>Семьи с детьми</h4>
+        <p>30–45 лет. Безопасность, качество, доверие к бренду, который пьют дети.</p>
+      </div>
+      <div class="persona card">
+        <div class="persona-emoji">🥾</div>
+        <h4>Путешественники</h4>
+        <p>Игра слов «Пилигрим». Походы, дорога, природа — вода, которая всегда с тобой.</p>
+      </div>
+    </div>
+
+    <!-- Tone of Voice -->
+    <h3 class="block-title">Tone of Voice</h3>
+    <div class="tov card">
+      <div class="tov-item">
+        <span class="tov-icon">💧</span>
+        <div><strong>Свежий</strong> — как глоток родниковой воды. Без канцелярита и штампов.</div>
+      </div>
+      <div class="tov-item">
+        <span class="tov-icon">🌿</span>
+        <div><strong>Честный</strong> — рассказываем о sourcing, составе, производстве прозрачно.</div>
+      </div>
+      <div class="tov-item">
+        <span class="tov-icon">😊</span>
+        <div><strong>Тёплый</strong> — на «ты», как друг, который заботится о тебе.</div>
+      </div>
+      <div class="tov-item">
+        <span class="tov-icon">🧭</span>
+        <div><strong>Вдохновляющий</strong> — мотивируем на движение, путь, как настоящий пилигрим.</div>
+      </div>
+    </div>
+
+    <!-- Регулярность -->
+    <h3 class="block-title">Регулярность публикаций</h3>
+    <div class="freq card">
+      <div class="freq-main">
+        <span class="freq-num">3–4</span>
+        <span class="freq-unit">поста в неделю</span>
+      </div>
+      <div class="freq-list">
+        <div class="freq-item"><span class="freq-check">✓</span> <strong>2–3 основных поста</strong> — лента / карусели / Reels</div>
+        <div class="freq-item"><span class="freq-check">✓</span> <strong>1–2 доп. формата</strong> — сторис, клипы, интерактив</div>
+        <div class="freq-item"><span class="freq-check">✓</span> <strong>Качество важнее количества</strong> — каждый пост работает на цель</div>
+        <div class="freq-item"><span class="freq-check">✓</span> <strong>Гибкая сетка</strong> — частота подстраивается под кампании и запуски</div>
+      </div>
+    </div>
+
+    <!-- Этапы -->
+    <h3 class="block-title">Этапы развития (6 месяцев)</h3>
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-marker">1</div>
+        <div class="tl-content card">
+          <span class="tl-period">Месяц 1</span>
+          <h4>Аудит и ребрендинг соцсетей</h4>
+          <p>Анализ конкурентов, обновление шапок профилей, единый визуальный стиль, контент-стратегия на 3 месяца.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-marker">2</div>
+        <div class="tl-content card">
+          <span class="tl-period">Месяц 2–3</span>
+          <h4>Регулярный контент и рост</h4>
+          <p>Запуск 12 рубрик, 3–4 поста в неделю, ежедневные сторис, первые коллаборации с микро-инфлюенсерами.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-marker">3</div>
+        <div class="tl-content card">
+          <span class="tl-period">Месяц 4–5</span>
+          <h4>Спецпроекты и комьюнити</h4>
+          <p>Челлендж #МойПилигрим, Telegram-канал с закрытыми акциями, UGC-конкурсы, амбассадоры.</p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-marker">4</div>
+        <div class="tl-content card">
+          <span class="tl-period">Месяц 6</span>
+          <h4>Масштабирование и аналитика</h4>
+          <p>Подведение итогов, оптимизация по данным, план на следующие полгода, расширение команды при необходимости.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== КОНТЕНТ-ПЛАН ===== -->
+<section class="section" id="content">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">02 — Контент</span>
+      <h2 class="section-title">Контент-рубрики</h2>
+      <p class="section-desc">12 направлений, которые закрывают все потребности аудитории.</p>
+    </div>
+
+    <div class="rubrics">
+      <div class="rubric card">
+        <div class="rubric-emoji">🔬</div>
+        <h4>О продукте</h4>
+        <p>Состав, источник, производство, лабораторные тесты, FAQ.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">💪</div>
+        <h4>ЗОЖ и спорт</h4>
+        <p>Тренировки с водой, гидрация, баланс электролитов, советы нутрициолога.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">🍳</div>
+        <h4>Рецепты</h4>
+        <p>Вода в кулинарии: смузи, лимонады, detox-вода, утренние ритуалы.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">🥾</div>
+        <h4>Путешествия</h4>
+        <p>Маршруты пилигримов, где набрать лучшей воды, горы, природа, дорога.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">🌱</div>
+        <h4>Экология</h4>
+        <p>Переработка бутылок, устойчивость, забота о планете, eco-инициативы.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">🎬</div>
+        <h4>Reels / Shorts</h4>
+        <p>Эстетичные ролики с водой, ASMR звуки, трендовые звуки, процесс производства.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">👤</div>
+        <h4>За кулисами</h4>
+        <p>Команда, завод, путь бутылки от источника до полки, лица бренда.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">🎁</div>
+        <h4>Акции и розыгрыши</h4>
+        <p>Конкурсы, подарки подписчикам, спецпредложения, бонусы.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">💬</div>
+        <h4>Интерактив</h4>
+        <p>Опросы, игры в сторис, Q&A, челленджи, UGC.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">🤝</div>
+        <h4>Коллаборации</h4>
+        <p>Совместные посты с фитнес-клубами, блогерами, эко-проектами.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">📚</div>
+        <h4>Польза и образование</h4>
+        <p>Сколько воды пить, мифы о воде, гид для разных профессий и образов жизни.</p>
+      </div>
+      <div class="rubric card">
+        <div class="rubric-emoji">🧭</div>
+        <h4>Сторителлинг</h4>
+        <p>Истории амбассадоров, реальных людей, философия пути «Пилигрим».</p>
+      </div>
+    </div>
+
+    <!-- Пример недели -->
+    <h3 class="block-title">Пример контент-плана на неделю</h3>
+    <div class="calendar card">
+      <div class="day"><span class="day-name">Пн</span><span class="day-content">Reels: «5 причин пить воду утром»</span></div>
+      <div class="day"><span class="day-name">Вт</span><span class="day-content">Карусель: «Откуда берётся Пилигрим»</span></div>
+      <div class="day"><span class="day-name">Ср</span><span class="day-content">Сторис: опрос + Q&A с нутрициологом</span></div>
+      <div class="day"><span class="day-name">Чт</span><span class="day-content">Пост: рецепт detox-воды</span></div>
+      <div class="day"><span class="day-name">Пт</span><span class="day-content">Reels: ASMR открытие бутылки</span></div>
+      <div class="day"><span class="day-name">Сб</span><span class="day-content">UGC-конкурс #МойПилигрим</span></div>
+      <div class="day"><span class="day-name">Вс</span><span class="day-content">Telegram: длинный пост — философия пути</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ПРИМЕРЫ РАБОТ ===== -->
+<section class="section section-alt" id="cases">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">03 — Примеры работ</span>
+      <h2 class="section-title">Как может выглядеть контент Пилигрима</h2>
+      <p class="section-desc">Конкретные идеи постов, Reels и форматов под разные задачи бренда.</p>
+    </div>
+
+    <!--
+      ============================================================
+      КАК ВСТАВИТЬ СВОЁ ФОТО ИЛИ ВИДЕО (инструкция для VSCode)
+      ============================================================
+      В каждом блоке <article class="case card"> есть зона медиа.
+      Сейчас там стоит заглушка <div class="case-media-empty">...</div>.
+
+      ВАРИАНТ A — ВСТАВИТЬ ФОТО:
+      Замените заглушку на:
+        <img src="media/zvuk-svezhesti.jpg" alt="Звук свежести" class="case-media">
+
+      ВАРИАНТ B — ВСТАВИТЬ ВИДЕО (со звуком, с контролями):
+      Замените заглушку на:
+        <video src="media/zvuk-svezhesti.mp4" class="case-media" controls muted loop playsinline></video>
+
+      ВАРИАНТ C — ВИДЕО АВТОПЛЕЕМ (без кнопок, как зацикленный Reels):
+        <video src="media/zvuk-svezhesti.mp4" class="case-media" autoplay muted loop playsinline></video>
+
+      Файлы кладите в папку  media/  рядом с index.html.
+      Рекомендуемые форматы: фото — .jpg / .png / .webp; видео — .mp4 / .webm.
+      Идеальный размер: вертикальное 9:16 или квадратное 1:1.
+      ============================================================
+    -->
+    <div class="cases">
+      <article class="case card">
+        <div class="case-media-wrap">
+          <!-- ВАРИАНТ ДЛЯ REELS (видео). Замените строку ниже на свой <video ...> -->
+          <!-- <div class="case-media-empty"><span>🎬<br><small>Вставьте Reels<br>(видео)</small></span></div> -->
+          <video src="media/asmr.mp4" class="case-media" autoplay muted loop playsinline></video>
+          <span class="case-format">🎬 Reels</span>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">ASMR · Продукт</span>
+          <h4>«Звук свежести»</h4>
+          <p>Крупный план: откручивается крышка, лёгкий хлопок газации (или плеск воды), капли росы по бутылке, наполнение стакана. Без слов — только чистый звук воды. Эстетика, которую досматривают до конца.</p>
+        </div>
+      </article>
+
+      <article class="case card">
+        <div class="case-media-wrap">
+          <!-- ВАРИАНТ ДЛЯ КАРУСЕЛИ (фото). Замените строку ниже на свой <img ...> -->
+          <!-- <div class="case-media-empty"><span>🖼<br><small>Вставьте карусель<br>(фото)</small></span></div> -->
+          <img src="media/myph.png" alt="Звук свежести" class="case-media">
+          <span class="case-format">🖼 Карусель</span>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">Образование · Польза</span>
+          <h4>«Сколько воды нужно именно тебе»</h4>
+          <p>Карусель-калькулятор: норма воды по весу и активности, признаки обезвоживания, мифы о «8 стаканах». Сохраняемый контент, который пересылают друзьям.</p>
+        </div>
+      </article>
+
+      <article class="case card">
+        <div class="case-media-wrap">
+          <!-- ВАРИАНТ ДЛЯ ПОСТА (фото). Замените строку ниже на свой <img ...> -->
+          <!-- <div class="case-media-empty"><span>📸<br><small>Вставьте пост<br>(фото)</small></span></div> -->
+          <img src="media/road.png" alt="Звук свежести" class="case-media">
+          <span class="case-format">📸 Пост</span>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">Сторителлинг · Бренд</span>
+          <h4>«Путь Пилигрима»</h4>
+          <p>Серия постов об источнике воды: откуда она берётся, путь от скважины до бутылки, люди, которые стоят за производством. Честный рассказ, который строит доверие.</p>
+        </div>
+      </article>
+
+      <article class="case card">
+        <div class="case-media-wrap">
+          <!-- ВАРИАНТ ДЛЯ REELS (видео). Замените строку ниже на свой <video ...> -->
+          <!-- <div class="case-media-empty"><span>🎬<br><small>Вставьте Reels<br>(видео)</small></span></div> -->
+          <video src="media/morning.mp4" class="case-media" autoplay muted loop playsinline></video>
+          <span class="case-format">🎬 Reels</span>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">ЗОЖ · Тренд</span>
+          <h4>«Утренний ритуал»</h4>
+          <p>Динамичный ролик под трендовый звук: стакан воды после пробуждения → лёгкая зарядка → дорога. Вода как первый шаг заботы о себе. Идеально для Reels и Shorts.</p>
+        </div>
+      </article>
+
+      <article class="case card">
+        <div class="case-media-wrap">
+          <!-- ВАРИАНТ ДЛЯ КАРУСЕЛИ (фото). Замените строку ниже на свой <img ...> -->
+          <!-- <div class="case-media-empty"><span>📸<br><small>Вставьте пост<br>(фото)</small></span></div> -->
+          <img src="media/drink.png" alt="Звук свежести" class="case-media">
+          <span class="case-format">🍽 Карусель</span>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">Рецепты · Лайфстайл</span>
+          <h4>«Detox-вода: 5 рецептов»</h4>
+          <p>Свежие комбинации: огурец+мята, лимон+имбирь, ягоды+розмарин. Красивая подача, простые ингредиенты, сохранения гарантированы.</p>
+        </div>
+      </article>
+
+      <article class="case card">
+        <div class="case-media-wrap">
+          <!-- ВАРИАНТ ДЛЯ СТОРИС (видео или фото). Замените строку ниже на свой <video ...> или <img ...> -->
+          <!-- <div class="case-media-empty"><span>💬<br><small>Вставьте сторис<br>(видео/фото)</small></span></div> -->
+          <img src="media/challeng.png" alt="Звук свежести" class="case-media">
+          <span class="case-format">💬 Сторис</span>
+        </div>
+        <div class="case-body">
+          <span class="case-tag">Интерактив · UGC</span>
+          <h4>Челлендж #МойПилигрим</h4>
+          <p>Подписчики делятся моментами, где вода с ними: тренировка, поход, рабочий стол. Лучшие — в сторис и постоянную ленту. Растит лояльность и вовлечённость.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ===== KPI ===== -->
+<section class="section" id="kpi">
+  <div class="container">
+    <div class="section-head">
+      <span class="kicker">04 — Цели</span>
+      <h2 class="section-title">KPI и цели на 6 месяцев</h2>
+      <p class="section-desc">Конкретные измеримые результаты, к которым я веду бренд.</p>
+    </div>
+
+    <div class="kpi-grid">
+      <div class="kpi-card card">
+        <div class="kpi-num">+100%</div>
+        <div class="kpi-label">рост числа подписчиков во всех соцсетях</div>
+      </div>
+      <div class="kpi-card card">
+        <div class="kpi-num">5%+</div>
+        <div class="kpi-label">средний Engagement Rate по аккаунтам</div>
+      </div>
+      <div class="kpi-card card">
+        <div class="kpi-num">3×</div>
+        <div class="kpi-label">рост охватов Reels и Shorts</div>
+      </div>
+      <div class="kpi-card card">
+        <div class="kpi-num">15%</div>
+        <div class="kpi-label">прирост трафика на сайт из соцсетей</div>
+      </div>
+    </div>
+
+    <div class="cta-banner card">
+      <div>
+        <h3>Готов показать результат, а не обещания</h3>
+        <p>Дайте месяц — и эффективность будет видна на реальных цифрах.</p>
+      </div>
+      <a href="#strategy" class="btn btn-primary">К стратегии →</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="logo"><span class="logo-mark">◊</span> Пилигрим<span class="logo-dot">.</span>SMM</div>
+    <p>Стратегия развития социальных сетей бренда «Пилигрим».</p>
+    <p class="footer-note">Сделано с 💧 и заботой о чистоте.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
